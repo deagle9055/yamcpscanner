@@ -1,2 +1,1 @@
-# yamcpscanner
-Yet Another MCP Security Scanner
+# YAMCP: Yet Another MCP Security Scanner
