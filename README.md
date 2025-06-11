@@ -21,13 +21,16 @@ YAMCP aims to translate that critical research into a practical, easy-to-use uti
 
 The scanner currently implements checks for the following high-impact vulnerabilities:
 
-**🕵️ Passive Scan: Prompt Injection / "Line Jumping"**  
+***🕵️ Passive Scan: Prompt Injection / "Line Jumping"*** 
   * Scans the description field of all tools for suspicious keywords that could be interpreted as malicious instructions by an AI model.  
-**🕵️ Passive Scan: Invisible Unicode Obfuscation**  
+
+***🕵️ Passive Scan: Invisible Unicode Obfuscation***  
   * Detects the presence of hidden or confusable Unicode characters that could be used to mask malicious commands from human review.  
-**💥 Active Scan: Time-Based Command Injection**  
-  * Safely probes tool parameters with time-based payloads (sleep / timeout) to discover if user-provided input is being insecurely passed to a system shell, which could lead to Remote Code Execution (RCE).  
-**📄 JSON Reporting**  
+
+***💥 Active Scan: Time-Based Command Injection***  
+  * Safely probes tool parameters with time-based payloads (sleep / timeout) to discover if user-provided input is being insecurely passed to a system shell, which could lead to Remote Code Execution (RCE).
+
+***📄 JSON Reporting***  
   * Generates a detailed, timestamped JSON report of the scan results, perfect for record-keeping and CI/CD integration.
 
 ## **Installation**
