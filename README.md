@@ -1,10 +1,10 @@
 # YAMCP: Yet Another MCP Security Scanner
 ![YAMCPScanner_Logo](https://github.com/user-attachments/assets/e01e2ff1-84c0-4930-9740-ad3c858340a9)
-
 # **YAMCP: Yet Another MCP Scanner**
 
-**YAMCP** is an open-source Python command-line tool for conducting security scans of **Model Context Protocol (MCP)** servers. It performs both passive and active checks to identify vulnerabilities based on the latest security research targeting MCP.
+**YAMCP** is an open-source Python command-line tool for conducting security scans of **Model Context Protocol (MCP)** servers. It performs both passive and active checks to identify vulnerabilities based on the latest security research targeting MCP.  
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/guerilla7/yamcpscanner)
 ## **Background and Inspiration**
 
 The **Model Context Protocol (MCP)**, introduced in late 2024, is rapidly becoming the standard for connecting powerful AI models to external tools, APIs, and data sources. While this unlocks incredible capabilities, it also creates a new and complex attack surface.
